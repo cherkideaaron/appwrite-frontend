@@ -1,0 +1,19 @@
+@import "@appwrite.io/pink/dist/pink.css";
+@import "@appwrite.io/pink-icons/dist/icon.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: hsl(var(--color-neutral-50));
+}
+
+.dark body {
+  background: hsl(var(--color-neutral-900));
+}
